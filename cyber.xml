@@ -63,7 +63,7 @@ Useful links.
   <!-- </row> -->
 
   <row height="0.4">
-    <key width="1" c="🐧:meta" nw="" ne="" sw="" se="" />
+    <key width="1" c="" nw="" ne="" sw="" se="" />
     <key width="1" c="undo:ctrl,z" nw="" ne="redo:ctrl,Z" sw="undo" se="redo" />
     <key width="1" c="" nw="" ne="" sw="" se="" />
     <key width="1" c="" nw="" ne="" sw="" se="" />
@@ -124,7 +124,7 @@ Useful links.
     <key width="0.85" c="v" nw="" ne="V" sw="C-v:ctrl,v" se="" />
     <key width="0.85" c="b" nw="" ne="\?" sw="" se="" />
     <key width="0.85" c="n" nw="" ne="" sw="C-n:ctrl,n" se="" />
-    <key width="0.85" c="m" nw="" ne="&quot;" sw="'" se="" />
+    <key width="0.85" c="m" nw="" ne="" sw="" se="" />
     <key width="0.85" c="C-c:ctrl,c" nw="" ne="cd␣↹:ctrl,e,ctrl,u,'cd ',tab" sw="" se="cd␣.↹:ctrl,e,ctrl,u,'cd .',tab"/>
     <key width="1.35" c="🔨:enter" nw="loc voice_typing" ne="" sw="action" se="" />
   </row>
