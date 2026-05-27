@@ -113,7 +113,7 @@ Useful links.
     <key width="0.85" c="j" nw="jk" ne="👇🏾:down" s=" :down"  sw="" s="" se="" />
     <key width="0.85" c="k" nw="" ne="👆🏻:up" n=" :up" sw="" se="" />
     <key width="0.85" c="l" nw="" ne="👉:right" e=" :right" sw="" se="" />
-    <key width="0.7" c="" nw="" ne="" sw="" se="" />
+    <!-- <key width="0.7" c="" nw="" ne="" sw="" se="" /> -->
   </row>
 
   <row height="0.6">
@@ -132,13 +132,13 @@ Useful links.
   <row height="0.6">
     <key shift="0.2" width="1.35" c="prev:ctrl,t,k,enter" nw="resize pane:ctrl,n" n="" ne="👆🏻:ctrl,n,up,enter" w="👈🏿:ctrl,n,left,enter" e="👉:ctrl,n,right,enter" sw="" s="👇🏾:ctrl,n,down,enter" se="" />
     <key width="1.35" c="next:ctrl,t,j,enter" nw="move pane:ctrl,h" n="" ne="👆🏻:ctrl,h,up,enter" w="👈🏿:ctrl,h,left,enter" e="👉:ctrl,h,right,enter" sw="" s="👇🏾:ctrl,h,down,enter" se="" />
-    <key width="0.35" c="" nw="" n="" ne="" e="" sw="" s="" se=""/>
     <key width="1" c="-" nw="–" ne="+" sw="_" se="—" />
     <key width="1" c="&quot;" nw="&quot;┊&quot;:&quot;,&quot;,left" ne="&apos;" sw="&apos;┊&apos;:\'\',left" se="“┊”:“”,left" />
     <key width="1" c="{" nw="{┊}:'{}',left" ne="[" sw="}" se="]" />
     <key width="1" c="(" nw="(┊):'()',left" ne="&gt;" sw=")" se="&lt;" />
     <key width="1.25" c="delete_word" nw="" ne="forward_delete_word" sw="⌧ clear:ctrl,a,selectAll,backspace" se="" />
     <key width="1.5" c="backspace" nw="" ne="delete" sw="⌫┊⌦:backspace,delete" se="" />
+    <!-- <key width="0.35" c="" nw="" n="" ne="" e="" sw="" s="" se=""/> -->
   </row>
 
   <row height="0.6">
