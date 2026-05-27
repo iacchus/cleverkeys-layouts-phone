@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the QWERTY (US) layout.
+
+A layout is made of keys arranged into rows. Each keys can be assigned several
+symbols.
+'key0' assigns the symbol on the middle of the key. 'nw', 'ne', etc.. assign
+symbols to the corners of a key, they are arranged following the cardinal
+directions:
+
+   nw   n   ne
+   w    c    e
+   sw   s   se
+
+Symbols prefixed with 'loc ' are not visible on the keyboard. They are used to
+specify a place for a key, if it needed to be added to the layout later.
+(for example, by the "Add keys to keyboard" option)
+
+Keys can be made bigger with the 'width' attribute and blank space can be added
+on the left of a key with the 'shift' attribute.
+
+You can define your own bottom row by simply adding another '<row>...<row/>' tag
+then disabling the built-in bottom row by adding 'bottom_row="false"' to the
+keyboard metadata.
+
+Useful links.
+
+- Web based editor that will simplify editing of this file.
+  https://unexpected-keyboard-layout-editor.lixquid.com
+
+- Full guide on how to edit the layout.
+  https://github.com/Julow/Unexpected-Keyboard/tree/master/doc/Custom-layouts.md
+
+- Current definition of the bottom row (for easy importing).
+  https://github.com/Julow/Unexpected-Keyboard/tree/master/res/xml/bottom_row.xml
+
+- Built-in layouts (for easy importing)
+  https://github.com/Julow/Unexpected-Keyboard/tree/master/srcs/layouts
+
+- Etc
+  https://github.com/Julow/Unexpected-Keyboard/tree/master/res/xml
+
+  https://github.com/Julow/Unexpected-Keyboard/blob/master/CONTRIBUTING.md#adding-symbols-to-shift-fn-compose-and-other-modifiers
+
+  https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Possible-key-values.md
+
+  https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Custom-layouts.md
+-->
+<keyboard name="QWERTY (broccoli)" script="latin" embedded_number_row="true" bottom_row="false">
+  <!-- <row height="0.4"> -->
+  <!--   <key width="0.7692" c="🐧:meta" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="undo:ctrl,z" nw="" ne="redo:ctrl,Z" sw="undo" se="redo" /> -->
+  <!--   <key width="0.7692" c="" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c='𝚟𝚒":esc,vi"' nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="𝚟𝚒𝚠:viw" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="cut" nw="" ne="" sw="" se="" /> -->
+  <!--   <key width="0.7692" c="paste" nw='"+𝚙:"+p' ne="𝚙𝚊𝚜𝚝𝚎:paste" sw="𝙲-𝙼 𝚟:ctrl,alt,v" se='"+𝙿:"+P' /> -->
+  <!--   <key width="0.7692" c="copy" nw='"+𝚢𝚢:"+yy' ne="𝚌𝚘𝚙𝚢:copy"  sw='"+𝚢𝚢:"+yy' se="| xlp↵:'| xlp',enter" /> -->
+  <!--   <key width="0.7692" c="selectAll" nw="" ne="𝚜𝚎𝚕𝙰𝚕𝚕:selectAll" sw="C-a:ctrl,a" se="𝚐𝚐𝚅𝙶:ggVG" /> -->
+  <!-- </row> -->
+
+  <row height="0.4">
+    <key width="1" c="🐧:meta" nw="" ne="" sw="" se="" />
+    <key width="1" c="undo:ctrl,z" nw="" ne="redo:ctrl,Z" sw="undo" se="redo" />
+    <key width="1" c="" nw="" ne="" sw="" se="" />
+    <key width="1" c="" nw="" ne="" sw="" se="" />
+    <key width="1" c=",c_:',c',space" nw="" ne="" sw=",cc:',cc'" se="" />
+    <key width="1" c="" nw="" ne="" sw="" se="" />
+    <key width="1" c="cut" nw="" ne="" sw="" se="" />
+    <key width="1" c="copy" nw='"+𝚢𝚢:"+yy' ne="𝚌𝚘𝚙𝚢:copy"  sw='"+𝚢𝚢:"+yy' se="| xlp↵:'| xlp',enter" />
+    <key width="1" c="paste" nw='"+𝚙:"+p' ne="𝚙𝚊𝚜𝚝𝚎:paste" sw="𝙲-𝙼 𝚟:ctrl,alt,v" se='"+𝙿:"+P' />
+    <key width="1" c="selectAll" nw="" ne="𝚜𝚎𝚕𝙰𝚕𝚕:selectAll" sw="C-a:ctrl,a" se="𝚐𝚐𝚅𝙶:ggVG" />
+  </row>
+
+  <row height="0.4">
+    <key c="1" nw="esc" ne="!" sw="𝙵𝟷:f1" se="" />
+    <key c="2" nw="" ne="@" sw="𝙵𝟸:f2" se="" />
+    <key c="3" nw="" ne="#" sw="𝙵𝟹:f3" se="" />
+    <key c="4" nw="" ne="$" sw="𝙵𝟺:f4" se="" />
+    <key c="5" nw="" ne="%" sw="𝙵𝟻:f5" se="" />
+    <key c="6" nw="" ne="^" sw="𝙵𝟼:f6" se="" />
+    <key c="7" nw="" ne="&amp;" sw="𝙵𝟽:f7" se="" />
+    <key c="8" nw="" ne="*" sw="𝙵𝟾:f8" se="" />
+    <key c="9" nw="" ne="(" sw="𝙵𝟿:f9" se="𝙵𝟷𝟷:f11" />
+    <key c="0" nw="" ne=")" sw="𝙵𝟷𝟶:f10" se="𝙵𝟷𝟸:f12" />
+  </row>
+
+  <row height="0.6">
+    <key width="1.5" c="tab" nw="" n="" ne="&gt;&gt;:&gt;,&gt;,esc" w="" e="" sw="&lt;&lt;:&lt;,&lt;,esc" s="" se="" />
+    <key width="0.85" c="q" nw="" ne="˸ 𝚚:esc,':q',enter" sw="" se="" />
+    <key width="0.85" c="w" nw="" ne="˸ 𝚠:esc,':w',enter" sw="" se="" />
+    <key width="0.85" c="e" nw="" n="" ne="" sw="" se="" />
+    <key width="0.85" c="r" nw="" ne="" sw="C-r:ctrl,r" se="" />
+    <key width="0.85" c="t" nw="" ne="T" sw="C-t:ctrl,t" se="" />
+    <key width="0.85" c="y" nw="" ne="" sw="" se="" />
+    <key width="0.85" c="u" nw="" ne="" sw="" se="" />
+    <key width="0.85" c="i" nw="" ne="" sw="" se="" />
+    <key width="0.85" c="o" nw="" n="" ne="" sw="C-o:ctrl,o" s="O" se="" w="" />
+    <key width="0.85" c="p" nw="" ne="P" sw="C-p:ctrl,p" s="" se="" />
+  </row>
+
+  <row height="0.6">
+    <key shift="0.4" width="1.25" c=">_:ctrl,alt,c" nw="prev:ctrl,alt,up" ne="open:ctrl,alt,right" sw="close:ctrl,alt,left" se="next:ctrl,alt,down" />
+    <key width="0.85" c="a" nw="" n="" ne="" sw="" se="" />
+    <key width="0.85" c="s" nw="" ne="loc §" sw="loc ß" se="" />
+    <key width="0.85" c="d" nw="" ne="" sw="C-d:ctrl,d" se="" />
+    <key width="0.85" c="f" nw="M-f:alt,f" ne="F" sw="C-f:ctrl,f" s="" se="" />
+    <key width="0.85" c="g" nw="" ne="G" sw="🔨:enter" se="" />
+    <key width="0.85" c="h" nw="" ne="👈🏿:left" sw="C-h:ctrl,h" se="" w=" :left" />
+    <key width="0.85" c="j" nw="jk" ne="👇🏾:down" s=" :down"  sw="" s="" se="" />
+    <key width="0.85" c="k" nw="" ne="👆🏻:up" n=" :up" sw="" se="" />
+    <key width="0.85" c="l" nw="" ne="👉:right" e=" :right" sw="" se="" />
+    <key width="0.7" c="" nw="" ne="" sw="" se="" />
+  </row>
+
+  <row height="0.6">
+    <key width="1.85" c="shift" nw="" ne="loc capslock" sw="" se="" />
+    <key width="0.85" c="z" nw="" ne="" sw="" se="" />
+    <key width="0.85" c="x" nw="" ne="loc †" sw="𝕏" se="" />
+    <key width="0.85" c="c" nw="" ne="" sw="C-c:ctrl,c" se="ç" />
+    <key width="0.85" c="v" nw="" ne="V" sw="C-v:ctrl,v" se="" />
+    <key width="0.85" c="b" nw="" ne="\?" sw="" se="" />
+    <key width="0.85" c="n" nw="" ne="" sw="C-n:ctrl,n" se="" />
+    <key width="0.85" c="m" nw="" ne="&quot;" sw="'" se="" />
+    <key width="0.85" c="C-c:ctrl,c" nw="" ne="cd␣↹:ctrl,e,ctrl,u,'cd ',tab" sw="" se="cd␣.↹:ctrl,e,ctrl,u,'cd .',tab"/>
+    <key width="1.35" c="🔨:enter" nw="loc voice_typing" ne="" sw="action" se="" />
+  </row>
+
+  <row height="0.6">
+    <key shift="0.2" width="1.1" c="prev:ctrl,t,k,enter" nw="resize pane:ctrl,n" n="" ne="👆🏻:ctrl,n,up,enter" w="👈🏿:ctrl,n,left,enter" e="👉:ctrl,n,right,enter" sw="" s="👇🏾:ctrl,n,down,enter" se="" />
+    <key width="1.1" c="next:ctrl,t,j,enter" nw="move pane:ctrl,h" n="" ne="👆🏻:ctrl,h,up,enter" w="👈🏿:ctrl,h,left,enter" e="👉:ctrl,h,right,enter" sw="" s="👇🏾:ctrl,h,down,enter" se="" />
+    <key width="1.35" c="" nw="" n="" ne="" e="" sw="" s="" se=""/>
+    <key width="1" c="-" nw="–" ne="+" sw="_" se="—" />
+    <key width="1" c="&quot;" nw="&quot;┊&quot;:&quot;,&quot;,left" ne="&apos;" sw="&apos;┊&apos;:\'\',left" se="“┊”:“”,left" />
+    <key width="1" c="{" nw="{┊}:'{}',left" ne="[" sw="}" se="]" />
+    <key width="1" c="(" nw="(┊):'()',left" ne="&gt;" sw=")" se="&lt;" />
+    <key width="1" c="delete_word" nw="" ne="forward_delete_word" sw="⌧ clear:ctrl,a,selectAll,backspace" se="" />
+    <key width="1.25" c="backspace" nw="" ne="delete" sw="⌫┊⌦:backspace,delete" se="" />
+  </row>
+
+  <row height="0.6">
+    <key shift="0.2" width="1.8" c="new tab:ctrl,t,n" nw="zellij:ctrl,e,ctrl,u,'zellij',enter" n="fscreen:ctrl,p,f" ne="t4b" e="👉:ctrl,p,r" sw="" s="👇🏾:ctrl,p,d" se="+ pane:ctrl,p,d"/>
+    <key width="1" c="ovrw:ctrl,a,selectAll,paste" nw="" ne="𝙲-𝚊,𝙲-𝚟:ctrl,a,ctrl,v" sw='𝚐𝚐𝚅𝙶"+𝙿:ggVG"+P' se="" />
+    <key width="1" c="c0p*:ctrl,a,selectAll,copy" nw="" ne="𝙲-𝚊,𝙲-𝚌:ctrl,a,ctrl,c" sw='𝚐𝚐𝚅𝙶"+𝚢:ggVG"+y' se='' />
+    <key width="1" c="=" nw="*" ne="?" sw="!" se="=␣:=,space" />
+    <key width="1" c="~" nw="" ne="~/↹:'~/',tab" sw="" se="~/.↹:'~/.',tab" />
+    <key width="1" c="," nw="`" ne=":" sw="." se=";" />
+    <key width="1" c="/" nw="" ne="\\" sw="|" se="" />
+    <key width="1" c="👆🏻:up" nw="" ne="loc page_up" sw="" se="" />
+    <key width="1" c="" nw="" ne="" sw="" se="" />
+  </row>
+
+  <row height="0.6">
+    <key width="1.5" c="ctrl" nw="loc switch_greekmath" ne="loc meta" sw="loc switch_clipboard" se="switch_numeric" />
+    <key width="1.25" c="fn" nw="loc alt" ne="loc change_method" sw="switch_emoji" se="config" />
+    <key width="1.25" c="alt" nw="" ne="" sw="" se="🐧:meta" />
+    <key width="3" c="space" nw="𝗯𝗿𝗼𝗰𝗰𝗼𝗹𝗶:config" n="switch_forward"  ne="avocado:switch_forward" sw="mercurius:switch_backward" s="switch_backward" w="cursor_left" e="cursor_right"  />
+    <key width="1" c="👈🏿:left" nw="" ne="home" sw="" se="" />
+    <key width="1" c="👇🏾:down" nw="" ne="page_down" sw="" se="" />
+    <key width="1" c="👉:right" nw="" ne="end" sw="" se="⇲␣:end,space" />
+  </row>
+
+</keyboard>
+
