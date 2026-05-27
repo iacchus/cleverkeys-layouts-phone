@@ -156,7 +156,7 @@ Useful links.
   <row height="0.6">
     <key width="1.5" c="ctrl" nw="loc switch_greekmath" ne="loc meta" sw="loc switch_clipboard" se="switch_numeric" />
     <key width="1.25" c="fn" nw="loc alt" ne="loc change_method" sw="switch_emoji" se="config" />
-    <key width="1.25" c="alt" nw="" ne="" sw="" se="🐧:meta" />
+    <key width="1.25" c="alt" nw="" ne="🐧:meta" sw="" se="" />
     <key width="3" c="space" nw="𝗯𝗿𝗼𝗰𝗰𝗼𝗹𝗶:config" n="switch_forward"  ne="avocado:switch_forward" sw="mercurius:switch_backward" s="switch_backward" w="cursor_left" e="cursor_right"  />
     <key width="1" c="👈🏿:left" nw="" ne="home" sw="" se="" />
     <key width="1" c="👇🏾:down" nw="" ne="page_down" sw="" se="" />
