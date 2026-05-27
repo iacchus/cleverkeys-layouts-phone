@@ -130,19 +130,19 @@ Useful links.
   </row>
 
   <row height="0.6">
-    <key shift="0.2" width="1.1" c="prev:ctrl,t,k,enter" nw="resize pane:ctrl,n" n="" ne="👆🏻:ctrl,n,up,enter" w="👈🏿:ctrl,n,left,enter" e="👉:ctrl,n,right,enter" sw="" s="👇🏾:ctrl,n,down,enter" se="" />
-    <key width="1.1" c="next:ctrl,t,j,enter" nw="move pane:ctrl,h" n="" ne="👆🏻:ctrl,h,up,enter" w="👈🏿:ctrl,h,left,enter" e="👉:ctrl,h,right,enter" sw="" s="👇🏾:ctrl,h,down,enter" se="" />
-    <key width="1.35" c="" nw="" n="" ne="" e="" sw="" s="" se=""/>
+    <key shift="0.2" width="1.35" c="prev:ctrl,t,k,enter" nw="resize pane:ctrl,n" n="" ne="👆🏻:ctrl,n,up,enter" w="👈🏿:ctrl,n,left,enter" e="👉:ctrl,n,right,enter" sw="" s="👇🏾:ctrl,n,down,enter" se="" />
+    <key width="1.35" c="next:ctrl,t,j,enter" nw="move pane:ctrl,h" n="" ne="👆🏻:ctrl,h,up,enter" w="👈🏿:ctrl,h,left,enter" e="👉:ctrl,h,right,enter" sw="" s="👇🏾:ctrl,h,down,enter" se="" />
+    <key width="0.35" c="" nw="" n="" ne="" e="" sw="" s="" se=""/>
     <key width="1" c="-" nw="–" ne="+" sw="_" se="—" />
     <key width="1" c="&quot;" nw="&quot;┊&quot;:&quot;,&quot;,left" ne="&apos;" sw="&apos;┊&apos;:\'\',left" se="“┊”:“”,left" />
     <key width="1" c="{" nw="{┊}:'{}',left" ne="[" sw="}" se="]" />
     <key width="1" c="(" nw="(┊):'()',left" ne="&gt;" sw=")" se="&lt;" />
-    <key width="1" c="delete_word" nw="" ne="forward_delete_word" sw="⌧ clear:ctrl,a,selectAll,backspace" se="" />
-    <key width="1.25" c="backspace" nw="" ne="delete" sw="⌫┊⌦:backspace,delete" se="" />
+    <key width="1.25" c="delete_word" nw="" ne="forward_delete_word" sw="⌧ clear:ctrl,a,selectAll,backspace" se="" />
+    <key width="1.5" c="backspace" nw="" ne="delete" sw="⌫┊⌦:backspace,delete" se="" />
   </row>
 
   <row height="0.6">
-    <key shift="0.2" width="1.8" c="new tab:ctrl,t,n" nw="zellij:ctrl,e,ctrl,u,'zellij',enter" n="fscreen:ctrl,p,f" ne="t4b" e="👉:ctrl,p,r" sw="" s="👇🏾:ctrl,p,d" se="+ pane:ctrl,p,d"/>
+    <key shift="0.2" width="1.8" c="new tab:ctrl,t,n" nw="" n="fullscreen:ctrl,p,f" ne="zellij:ctrl,e,ctrl,u,'zellij',enter" e="👉:ctrl,p,r" sw="" s="👇🏾:ctrl,p,d" se="+ pane:ctrl,p,d"/>
     <key width="1" c="ovrw:ctrl,a,selectAll,paste" nw="" ne="𝙲-𝚊,𝙲-𝚟:ctrl,a,ctrl,v" sw='𝚐𝚐𝚅𝙶"+𝙿:ggVG"+P' se="" />
     <key width="1" c="c0p*:ctrl,a,selectAll,copy" nw="" ne="𝙲-𝚊,𝙲-𝚌:ctrl,a,ctrl,c" sw='𝚐𝚐𝚅𝙶"+𝚢:ggVG"+y' se='' />
     <key width="1" c="=" nw="*" ne="?" sw="!" se="=␣:=,space" />
