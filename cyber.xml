@@ -98,7 +98,7 @@ Useful links.
     <key width="0.85" c="y" nw="" ne="" sw="" se="" />
     <key width="0.85" c="u" nw="" ne="" sw="" se="" />
     <key width="0.85" c="i" nw="" ne="" sw="" se="" />
-    <key width="0.85" c="o" nw="" n="" ne="" sw="C-o:ctrl,o" s="O" se="" w="" />
+    <key width="0.85" c="o" nw="" n="" ne="O" sw="C-o:ctrl,o" s="" se="" w="" />
     <key width="0.85" c="p" nw="" ne="P" sw="C-p:ctrl,p" s="" se="" />
   </row>
 
@@ -125,7 +125,7 @@ Useful links.
     <key width="0.85" c="b" nw="" ne="\?" sw="" se="" />
     <key width="0.85" c="n" nw="" ne="" sw="C-n:ctrl,n" se="" />
     <key width="0.85" c="m" nw="" ne="" sw="" se="" />
-    <key width="0.85" c="C-c:ctrl,c" nw="" ne="cd␣↹:ctrl,e,ctrl,u,'cd ',tab" sw="" se="cd␣.↹:ctrl,e,ctrl,u,'cd .',tab"/>
+    <key width="0.85" c="&lt;𝙲-𝚌&gt;:ctrl,c" nw="" ne="cd␣↹:ctrl,e,ctrl,u,'cd ',tab" sw="" se="cd␣.↹:ctrl,e,ctrl,u,'cd .',tab"/>
     <key width="1.35" c="🔨:enter" nw="loc voice_typing" ne="" sw="action" se="" />
   </row>
 
