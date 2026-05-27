@@ -62,7 +62,7 @@ Useful links.
   <!--   <key width="0.7692" c="selectAll" nw="" ne="𝚜𝚎𝚕𝙰𝚕𝚕:selectAll" sw="C-a:ctrl,a" se="𝚐𝚐𝚅𝙶:ggVG" /> -->
   <!-- </row> -->
 
-  <row height="0.4">
+  <row height="0.6">
     <key width="1" c="" nw="" ne="" sw="" se="" />
     <key width="1" c="undo:ctrl,z" nw="" ne="redo:ctrl,Z" sw="undo" se="redo" />
     <key width="1" c="" nw="" ne="" sw="" se="" />
@@ -70,7 +70,7 @@ Useful links.
     <key width="1" c=",c_:',c',space" nw="" ne="" sw=",cc:',cc'" se="" />
     <key width="1" c="" nw="" ne="" sw="" se="" />
     <key width="1" c="cut" nw="" ne="" sw="" se="" />
-    <key width="1" c="copy" nw='"+𝚢𝚢:"+yy' ne="𝚌𝚘𝚙𝚢:copy"  sw='"+𝚢𝚢:"+yy' se="| xlp↵:'| xlp',enter" />
+    <key width="1" c="copy" nw='' ne="𝚌𝚘𝚙𝚢:copy"  sw='"+𝚢𝚢:"+yy' se="| xlp↵:'| xlp',enter" />
     <key width="1" c="paste" nw='"+𝚙:"+p' ne="𝚙𝚊𝚜𝚝𝚎:paste" sw="𝙲-𝙼 𝚟:ctrl,alt,v" se='"+𝙿:"+P' />
     <key width="1" c="selectAll" nw="" ne="𝚜𝚎𝚕𝙰𝚕𝚕:selectAll" sw="C-a:ctrl,a" se="𝚐𝚐𝚅𝙶:ggVG" />
   </row>
