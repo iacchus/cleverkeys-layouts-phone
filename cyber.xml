@@ -68,7 +68,7 @@ Useful links.
     <key width="0.7692" c="accent_trema" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="wrap!:esc,':set wrap!',enter" nw="" ne="" sw="" se="" />
     <key width="1.5384" c="shift" nw="" ne="loc capslock" sw="" se="" />
   </row>
 
@@ -86,7 +86,6 @@ Useful links.
   </row>
 
   <row height="0.6">
-    <!-- <key width="1.5" c="tab" nw="" n="" ne="&gt;&gt;:&gt;,&gt;,esc" w="" e="" sw="&lt;&lt;:&lt;,&lt;,esc" s="" se="" /> -->
     <key width="1" c="q" nw="" ne="˸ 𝚚:esc,':q',enter" sw="" se="" />
     <key width="1" c="w" nw="" ne="˸ 𝚠:esc,':w',enter" sw="" se="" />
     <key width="1" c="e" nw="" n="" ne="" sw="" se="" />
@@ -100,7 +99,6 @@ Useful links.
   </row>
 
   <row height="0.6">
-    <!-- <key shift="0.4" width="1.25" c=">_:ctrl,alt,c" nw="prev:ctrl,alt,up" ne="open:ctrl,alt,right" sw="close:ctrl,alt,left" se="next:ctrl,alt,down" /> -->
     <key shift="0.4" width="1" c="a" nw="" n="" ne="" sw="C-a:ctrl,a" se="" />
     <key width="1" c="s" nw="" ne="loc §" sw="loc ß" se="" />
     <key width="1" c="d" nw="" ne="" sw="C-d:ctrl,d" se="" />
@@ -110,11 +108,9 @@ Useful links.
     <key width="1" c="j" nw="jk" ne="👇🏾:down" s=" :down"  sw="" s="" se="" />
     <key width="1" c="k" nw="" ne="👆🏻:up" n=" :up" sw="" se="" />
     <key width="1" c="l" nw="" ne="👉:right" e=" :right" sw="" se="" />
-    <!-- <key width="0.7" c="" nw="" ne="" sw="" se="" /> -->
   </row>
 
   <row height="0.6">
-    <!-- <key c="shift" nw="" ne="loc capslock" sw="" se="" /> -->
     <key shift="0.6" width="1" c="z" nw="" ne="" sw="" se="" />
     <key width="1" c="x" nw="" ne="loc †" sw="C-x:ctrl,x" se="" />
     <key width="1" c="c" nw="" ne="" sw="C-c:ctrl,c" se="ç" />
