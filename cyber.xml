@@ -60,12 +60,12 @@ Useful links.
   </row>
 
   <row height="0.4">
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
-    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_grave" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_circonflexe" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_aigu" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_tilde" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_cedille" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="accent_trema" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
@@ -143,8 +143,8 @@ Useful links.
 
   <row height="0.6">
     <key shift="0.2" width="1.8" c="new tab:ctrl,t,n" nw="" n="fullscreen:ctrl,p,f" ne="zellij:ctrl,e,ctrl,u,'zellij',enter" e="👉:ctrl,p,r" sw="" s="👇🏾:ctrl,p,d" se="+ pane:ctrl,p,d"/>
-    <key width="1" c="ovrw:ctrl,a,selectAll,paste" nw="" ne="𝙲-𝚊,𝙲-𝚟:ctrl,a,ctrl,v" sw='𝚐𝚐𝚅𝙶"+𝙿:ggVG"+P' se="" />
     <key width="1" c="c0p*:ctrl,a,selectAll,copy" nw="" ne="𝙲-𝚊,𝙲-𝚌:ctrl,a,ctrl,c" sw='𝚐𝚐𝚅𝙶"+𝚢:ggVG"+y' se='' />
+    <key width="1" c="ovrw:ctrl,a,selectAll,paste" nw="" ne="𝙲-𝚊,𝙲-𝚟:ctrl,a,ctrl,v" sw='𝚐𝚐𝚅𝙶"+𝙿:ggVG"+P' se="" />
     <key width="1" c="=" nw="*" ne="?" sw="!" se="=␣:=,space" />
     <key width="1" c="~" nw="" ne="~/↹:'~/',tab" sw="" se="~/.↹:'~/.',tab" />
     <key width="1" c="," nw="`" ne=":" sw="." se=";" />
