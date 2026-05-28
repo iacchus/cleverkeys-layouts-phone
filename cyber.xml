@@ -50,9 +50,8 @@ Useful links.
     <key width="1" c="esc" nw="" ne="" sw="" se="" />
     <key width="1" c="undo:ctrl,z" nw="" ne="redo:ctrl,Z" sw="undo" se="redo" />
     <key width="1" c="" nw="" ne="" sw="" se="" />
-    <key width="1" c="" nw="" ne="" sw="" se="" />
     <key width="1" c=",c_:',c',space" nw="" ne="" sw=",cc:',cc'" se="" />
-    <key width="1" c="" nw="" ne="" sw="" se="" />
+    <key width="2" c=">_:ctrl,alt,c" nw="prev:ctrl,alt,up" ne="open:ctrl,alt,right" sw="close:ctrl,alt,left" se="next:ctrl,alt,down" />
     <key width="1" c="cut" nw="" ne="" sw="" se="" />
     <key width="1" c="copy" nw="| xlp↵:'| xlp',enter" ne="𝚌𝚘𝚙𝚢:copy"  sw='"+𝚢𝚢:"+yy' se="" />
     <key width="1" c="paste" nw='"+𝚙:"+p' ne="𝚙𝚊𝚜𝚝𝚎:paste" sw="𝙲-𝙼 𝚟:ctrl,alt,v" se='"+𝙿:"+P' />
@@ -61,7 +60,6 @@ Useful links.
 
   <row height="0.4">
     <key width="1.5384" c="tab" nw="" n="" ne="&gt;&gt;:&gt;,&gt;,esc" w="" e="" sw="&lt;&lt;:&lt;,&lt;,esc" s="" se="" />
-    <key width="1.5384" c="shift" nw="" ne="loc capslock" sw="" se="" />
     <key width="0.7692" c="accent_grave" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="accent_circonflexe" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="accent_aigu" nw="" ne="" sw="" se="" />
@@ -70,6 +68,8 @@ Useful links.
     <key width="0.7692" c="accent_trema" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
     <key width="0.7692" c="" nw="" ne="" sw="" se="" />
+    <key width="0.7692" c="" nw="" ne="" sw="" se="" />
+    <key width="1.5384" c="shift" nw="" ne="loc capslock" sw="" se="" />
   </row>
 
   <row height="0.4">
