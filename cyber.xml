@@ -112,7 +112,7 @@ Useful links.
 
   <row height="0.6">
     <key shift="0.6" width="1" c="z" nw="" ne="" sw="" se="" />
-    <key width="1" c="x" nw="" ne="loc †" sw="C-x:ctrl,x" se="" />
+    <key width="1" c="x" nw="" n="" ne="" w="" e="" sw="C-x:ctrl,x" s="" se="" />
     <key width="1" c="c" nw="" ne="" sw="C-c:ctrl,c" se="ç" />
     <key width="1" c="v" nw="" ne="V" sw="C-v:ctrl,v" se="" />
     <key width="1" c="b" nw="" ne="\?" sw="" se="" />
